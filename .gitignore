@@ -1,0 +1,36 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Python 环境
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# 产物文件（体积大，不入仓库）
+downloads/
+发布/
+
+# Claude Code 内部
+.claude/
+
+# 浏览器数据
+browser_data/
+
+# 截图与临时图片
+*.png
+*.jpg
+*.jpeg
+
+# 临时文件
+*.tmp
+*.log
+
+# 调试与探索脚本（一次性使用）
+*.js
+*.json
+
+# 旧版报告
+download_report.json
+report.json
